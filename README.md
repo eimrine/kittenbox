@@ -9,5 +9,5 @@ In left column there have to be some stupid text.
 In right column there have to be inline-box div with 4 kittens. 
 First line of JS code must be array with some numbers. 
 In header must be 2 links: 
-Shuffle kittens & 
+shuffle kittens _&&_ 
 console.log ONLY negative elements of that array. 
