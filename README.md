@@ -12,4 +12,4 @@ In header must be 2 links:
 shuffle kittens _&&_ 
 console.log ONLY negative elements of that array. 
 
-final version - http://jsfiddle.net/9kqtdvz4/
+final version - http://jsfiddle.net/r7m870sk/
