@@ -9,19 +9,14 @@ numbers.onclick=function(){
         }
     }
     console.log(numberListNegative); 
+    return false;
 };
 
 var shuffle = document.getElementById("shuffleButton");
 shuffle.onclick=function(){
-    var ul = document.querySelector('ul');
+    var ul = document.getElementById("kittenbox");
     for (var i = ul.children.length; i >= 0; i--) {
         ul.appendChild(ul.children[Math.random() * i | 0]);
     }
-    /*
-    var ol = document.getElementsByTagName('ol')[0];
-    var temp = ol.removeChild(ol.firstChild);
-    alert (temp);
-    ol.appendChild(temp);
-    */
+    return false;
 };
-
