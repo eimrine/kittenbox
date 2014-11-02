@@ -11,3 +11,5 @@ First line of JS code must be array with some numbers.
 In header must be 2 links: 
 shuffle kittens _&&_ 
 console.log ONLY negative elements of that array. 
+
+final version - http://jsfiddle.net/9kqtdvz4/
