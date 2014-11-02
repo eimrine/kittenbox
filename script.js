@@ -14,9 +14,10 @@ numbers.onclick=function(){
 
 var shuffle = document.getElementById("shuffleButton");
 shuffle.onclick=function(){
-    var ul = document.getElementById("kittenbox");
-    for (var i = ul.children.length; i >= 0; i--) {
-        ul.appendChild(ul.children[Math.random() * i | 0]);
+    var kittens = document.getElementById("kittenbox");
+    for (var i = kittens.children.length; i >= 0; i--) {
+        kittens.appendChild(kittens.children[Math.random() * i | 0]);
     }
     return false;
 };
+
